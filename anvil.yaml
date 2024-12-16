@@ -1,9 +1,13 @@
 allow_embedding: false
-name: Custom HTML 10
-package_name: Custom_HTML_10
+name: release-process-example-DEV
+package_name: release_process_example_DEV
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
   server_version: python3-sandbox
   version: 2
-services: []
+services:
+- client_config: {}
+  server_config: {}
+  source: /runtime/services/tables.yml
+startup_form: Form1
