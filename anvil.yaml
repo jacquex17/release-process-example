@@ -1,6 +1,6 @@
 allow_embedding: false
-name: release-process-example-DEV
-package_name: release_process_example_DEV
+name: release-process-example-PROD
+package_name: release_process_example_PROD
 runtime_options:
   client_version: '3'
   server_spec: {base: python310-minimal}
